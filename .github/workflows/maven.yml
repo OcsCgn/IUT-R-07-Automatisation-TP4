@@ -38,7 +38,7 @@ jobs:
       
     - name: JY commit et push
 
-      run: 
+      run: |
         git config --global user.name OcsCgn
         git config --global user.email Oscar.cocagne@free.fr
         git add -A
